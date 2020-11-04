@@ -56,12 +56,13 @@ function convert(){
     if (sel == "to-lb"){
 
         result=inp*2.2046;
+        document.getElementById("output").innerHTML = result + " pounds";
 
     }else if(sel == "to-kg"){
         result=inp*0.4536;
+        document.getElementById("output").innerHTML = result + " kilograms";
     }
 
-    document.getElementById("output").innerHTML = result + " kilograms";
 }
 
 function myCalc(){
