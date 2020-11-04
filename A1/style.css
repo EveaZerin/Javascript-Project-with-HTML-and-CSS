@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+body {
+  background: #efe1f5;
+}
+
+
+
+#a3{
+    color: deeppink;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.wrapper{
+    display: flex;
+    position: relative;
+}
+
+.sidebar h2{
+    font-family: 'Vidaloka', serif;
+}
+
+.wrapper .sidebar{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background: #000000;
+}
+
+.image-container{
+    padding: 30px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.img-evea{
+    background-size: 100%;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+
+.wrapper .sidebar h2{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.sidebar ul{
+    margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+    text-align: center;
+    padding: 15px;
+
+}
+
+.wrapper .sidebar ul li a{
+    color: #bdb8d7;
+    display: block;
+}
+
+.wrapper .sidebar ul li:hover{
+    background: #594f8d;
+}
+
+.wrapper .sidebar ul li:hover a{
+    color: #fff;
+}
+
+.wrapper .sidebar .social_media{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.wrapper .sidebar .social_media a{
+    font-size: 25px;
+    display: block;
+    width: 40px;
+    background: #594f8d;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 10px;
+    color: #e2dff1;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-radius: 10%;
+
+}
+
+.wrapper .main_content{
+    width: 100%;
+    margin-left: 250px;
+
+}
+
+.wrapper .main_content .header{
+    text-align: center;
+    padding: 60px;
+    background: #fff;
+    color: #424141;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    
+}
+
+.header h1{
+    font-family: 'Vidaloka', serif;
+    font-size: 50px;
+}
+.wrapper .main_content .info{
+    margin: 20px;
+    color: #424141;
+    line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+    margin-bottom: 20px;
+}
+
+.info {
+    padding: 50px;
+    
+    font-size: 20px;
+}
+
+.info #About{
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+li i {
+    color: blueviolet; 
+    padding-right: 5px;
+}
+
+.info #Education{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#Education li,#Experience li{
+    padding: 15px;
+}
+
+.info #Experience{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.info #Skills{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+#Skills li{
+    padding:10px;
+    
+}
+
+
+.info #Interests{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+.info #Interests li{
+    padding:15px
+}
+
+.info h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.info #End{
+    padding-top: 30px;
+    
+}
+
+#end {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+}
+
+
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+
+}
+
+.content-table thead tr{
+    background-color: blueviolet;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th, .content-table td {
+    padding: 12px 15px;
+}
+
+
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid blueviolet;
+}

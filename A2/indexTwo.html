@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 02</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <a href="../A1/index.html" target="_blank" id="a1">Previous: Assignment 01</a>
+        <h1>Hero Converter for Mass</h1>
+        <div class="upper">
+            <span>Convert</span>
+            <input type="text" id="input">
+            <select name="" id="mySelect">
+                <option value="to-lb">kg to lb</option>
+                <option value="to-kg">lb to kg</option>
+            </select>
+            <button id="go" type="button" onclick=convert() id="converterBtn">Go</button>
+            <span id="output"></span>
+        </div>
+
+        
+        <div class="seriesForm">
+            <br>
+            <br>
+            <br>
+            <h1>Calculations!</h1>
+            <form action="">
+                <p>Input Series of Numbers&nbsp;<input type="text" id="input2" oninput=myCalc()></p>
+                <p id="max">Max :</p>
+                <p id="min">Min :</p>
+                <p id="sum">Sum :</p>
+                <p id="avg">Average :</p>
+                <p id="rev">Reverse Order :</p>
+            </form>
+        </div>
+
+        
+        <div class="part3body">
+            <h1>Magic!</h1>
+            <div class="magicButtons">
+                <div class="magicbox">
+                    <textarea name="maintextbox" id="maintxtbox" cols="20" rows="20"></textarea>
+                </div>
+                
+                <div id="buttonsofmagic">
+                    <input type="button" onclick=clearIt() value="Clear It">
+                    <input type="button" onclick=capIt() value="Capitalize">
+                    <input type="button" onclick=sort() value="Sort">
+                    <input type="button" onclick=reverse() value="Reverse">
+                    <input type="button" onclick=stripBlank() value="Strip Blank">
+                    <input type="button" onclick=addNum() value="Add Numbers">
+                    <input type="button" onclick=shuffle() value="Shuffle">
+                    
+                </div>
+
+            </div>
+        </div>
+
+        <div class="lower">
+            <div id="quotes">
+                <p id="quote-here"></p>
+            </div>
+            <div class="bbuttons">
+                <button type="button" onclick=green() id="btn-one"></button>
+                <button type="button" onclick=yellow() id="btn-two"></button>
+                <button type="button" onclick=blue() id="btn-three"></button>
+                <button type="button" onclick=red() id="btn-four"></button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
